@@ -1,0 +1,19 @@
+#paragraf3{
+    background-color: pink;
+}
+
+#paragraf2{
+    background-color: blue;
+}
+
+.paragraf5{
+    background-color: chocolate;
+}
+
+#p6{
+    background-color: cyan;
+    border: 3px solid brown;
+    margin-left: 50px;
+    padding: 15px;
+    border-radius: 25px;
+}

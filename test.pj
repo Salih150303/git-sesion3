@@ -1,0 +1,18 @@
+sayı=input()
+if sayı.isnumeric():
+  if int(sayı)>1:
+    
+    toplam=0
+    for i in sayı:
+      toplam=toplam +int(i)**len(sayı)
+      
+    print(toplam)
+    if int(sayı)==toplam:
+      print("bu bir armstrong sayısıdır")
+    else:
+      print("bu bir armstrong sayısı değildir")
+
+  else:
+    print('geçersiz sayı')
+else:
+  print('geçersiz değer')
